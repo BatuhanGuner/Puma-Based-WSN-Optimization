@@ -88,10 +88,10 @@ Outputs:
 
 | Parameter | Coverage | Routing | Description |
 |---|---|---|---|
-| `Npop` | 10, 20, 30, 40, 50 | 30 | Population size |
+| `Npop` | 10, 20, 30, 40, 50 | 10, 20, 30 | Population size |
 | `Tmax` | 500, 1000 | 500, 1000 | Maximum iterations |
 | `Region_Size` | 40, 80, 100, 160 | 100, 200 | Grid dimension (pixels) |
-| `N` | 20, 40, 50, 60 | – | Number of sensors |
+| `N` | 20, 40, 50, 60 | 50, 100, 200 | Number of sensors |
 | `SensRange` | 10, 15 | – | Sensing radius |
 | `CommRange` | 20, 30 | 20, 30 | Communication radius |
 | `CHpercent` | – | 0.10 | CH fraction |
