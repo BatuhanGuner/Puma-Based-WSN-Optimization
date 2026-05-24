@@ -1,0 +1,13 @@
+# Requirements – WSN-Puma-Optimization
+#
+# MATLAB (recommended: R2021a or later)
+#   - Statistics and Machine Learning Toolbox
+#     Required for: unifrnd (used in Puma.m initialization)
+#
+# GNU Octave (alternative, tested on Octave 8.x)
+#   Add the following line at the top of main_coverage.m and main_routing.m:
+#     pkg load statistics;
+#
+# No additional toolboxes are required beyond the above.
+# All other functions used (rand, randn, sort, min, meshgrid, etc.)
+# are part of MATLAB core / Octave base.

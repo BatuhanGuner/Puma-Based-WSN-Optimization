@@ -1,6 +1,3 @@
-# Puma-Based-WSN-Optimization
-Coverage maximization and energy-efficient routing optimization in wireless sensor networks using metaheuristic algorithms.
-
 # WSN-Puma-Optimization
 
 MATLAB simulation of Wireless Sensor Network (WSN) optimization using the **Puma Optimizer Algorithm (POA)**.  
@@ -88,15 +85,15 @@ Outputs:
 
 | Parameter | Coverage | Routing | Description |
 |---|---|---|---|
-| `Npop` | 10, 20, 30, 40, 50 | 10, 20, 30 | Population size |
-| `Tmax` | 500, 1000 | 500, 1000 | Maximum iterations |
-| `Region_Size` | 40, 80, 100, 160 | 100, 200 | Grid dimension (pixels) |
-| `N` | 20, 40, 50, 60 | 50, 100, 200 | Number of sensors |
-| `SensRange` | 10, 15 | – | Sensing radius |
-| `CommRange` | 20, 30 | 20, 30 | Communication radius |
-| `CHpercent` | – | 0.10 | CH fraction |
+| `Npop / nSol` | 50 | 30 | Population size |
+| `Max_it / MaxIter` | 500 | 500 | Maximum iterations |
+| `Region_Size` | 160 | – | Grid dimension (pixels) |
+| `Nsensors` | 60 | – | Number of sensors |
+| `SensRange` | 10 | – | Sensing radius |
+| `CommRange` | 20 | – | Communication radius |
+| `N` | – | 50 | Number of nodes |
+| `CHpercent` | – | 0.15 | CH fraction |
 | `InitialEnergy` | – | 1.5 J | Initial node energy |
-| `λ` | 10 | – | Penalty coefficient |
 
 ---
 
