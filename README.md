@@ -86,12 +86,12 @@ Outputs:
 | Parameter | Coverage | Routing | Description |
 |---|---|---|---|
 | `Npop / nSol` | 50 | 30 | Population size |
-| `Max_it / MaxIter` | 500 | 500 | Maximum iterations |
+| `Max_it / MaxIter` | 500, 1000 | 500, 1000 | Maximum iterations |
 | `Region_Size` | 160 | – | Grid dimension (pixels) |
 | `Nsensors` | 60 | – | Number of sensors |
 | `SensRange` | 10 | – | Sensing radius |
 | `CommRange` | 20 | – | Communication radius |
-| `N` | – | 50 | Number of nodes |
+| `N` | – | 50, 100, 200 | Number of nodes |
 | `CHpercent` | – | 0.10 | CH fraction |
 | `InitialEnergy` | – | 1.5 J | Initial node energy |
 
