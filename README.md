@@ -92,7 +92,7 @@ Outputs:
 | `SensRange` | 10 | – | Sensing radius |
 | `CommRange` | 20 | – | Communication radius |
 | `N` | – | 50 | Number of nodes |
-| `CHpercent` | – | 0.15 | CH fraction |
+| `CHpercent` | – | 0.10 | CH fraction |
 | `InitialEnergy` | – | 1.5 J | Initial node energy |
 
 ---
